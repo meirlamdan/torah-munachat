@@ -2,7 +2,7 @@
   <header>
     <div>
       <h1>תורה מונחת</h1>
-      <h3>תורה מונחת בקרן זוית כל הרוצה יבוא ויטול</h3>
+      <h3>  תורה מונחת בקרן זוית כל הרוצה יבוא ויטול <small>(קידושין סו)</small> </h3>
     </div>
   </header>
   <div id="nav">
@@ -22,10 +22,11 @@
   </div>
   <router-view />
   <footer>
-    <div class="hh">מ.ל</div>
+    <div >
+      <p>מ.ל <a href="https://github.com/meirlamdan/torah-munachat"><img src="https://github.com/favicon.ico" alt="github" width="24" height="24"></a></p> 
+    </div>
   </footer>
 </template>
-
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 #app {
@@ -35,9 +36,7 @@
   text-align: center;
   color: #2c3e50;
 }
-header div {
-  /* display:inline-block; */
-  /* font-size: 30px; */
+header div,footer {
   background: rgb(246, 249, 250);
   border: black solid 1px;
   border-radius: 10px;
@@ -68,14 +67,9 @@ header div {
 .hh {
   clear: both;
 }
+
+footer a{
+   vertical-align: middle;
+    margin: 0 10px;
+ }
 </style>
-    font-size: 14px;
-    font-family: Google Sans,arial,sans-serif;
-    white-space: nowrap;
-    line-height: 16px;
-    -webkit-tap-highlight-color: rgba(0,0,0,.10);
-    text-decoration: none;
-    display: inline-block;
-    padding: 17px 12px 11px 10px;
-    color: #5f6368;
-    outline: 0;
