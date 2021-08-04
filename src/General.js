@@ -1,7 +1,7 @@
 export const General = [
     {
         name: 'בייס הספר' ,
-        src: 'http://taryaganalytics.ddns.net:5000/static/media/bhsLogo_v4black.66020d6f.jpg',
+        src: 'http://taryaganalytics.ddns.net:5000/static/media/bhsLogo_v4black.66020d6f.jpg/',
         about: 'חיפוש משוכלל בתנ"ך',
         href: 'http://www.basehasefer.com/'
     },
