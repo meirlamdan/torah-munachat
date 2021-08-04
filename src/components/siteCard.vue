@@ -1,7 +1,7 @@
 <template>
   <div class="site-card">
     <h3>{{ name }}</h3>
-    <img :src="src || `${href}/favicon.ico/`" :alt="name" />
+    <img :src="src || `${href}/favicon.ico`" :alt="name" />
     <p>{{ about }}</p>
     <a :href="href" target="_blank">עבור לאתר</a>
   </div>

@@ -14,7 +14,7 @@ export const books = [
     {
         name: 'תורת אמת' ,
         about: 'מאגר תורני המכיל הרבה ספרי יסוד מוקלדים - להורדה למחשב,קיים גם בגירסת אונליין',
-        href: 'http://www.toratemetfreeware.com/'
+        href: 'https://www.toratemetfreeware.com/'
     },
     {
         name: 'אוצר הספרים היהודי השיתופי' ,
