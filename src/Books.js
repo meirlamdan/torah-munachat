@@ -12,7 +12,7 @@ export const books = [
         href: 'https://www.sefaria.org.il/'
     },
     {
-        name: 'תורת אמת' ,
+        name: 'תורת אמת',
         src : require('@/assets/toratemet.png'),
         about: 'מאגר תורני המכיל הרבה ספרי יסוד מוקלדים - להורדה למחשב,קיים גם בגירסת אונליין',
         href: 'http://www.toratemetfreeware.com/'
