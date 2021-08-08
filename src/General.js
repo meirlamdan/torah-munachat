@@ -1,7 +1,7 @@
 export const General = [
     {
         name: 'בייס הספר' ,
-        src: require('./assets/basehasefer.png'),
+        src: require('.assets/basehasefer.png'),
         about: 'חיפוש משוכלל בתנ"ך',
         href: 'http://www.basehasefer.com/'
     },
