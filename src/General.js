@@ -21,6 +21,11 @@ export const General = [
         src: 'https://d1qvck26m1aukd.cloudfront.net/app/public/media_objects/image_4x3_hes/000/003/187/big/1fe7c68fd4edb16529323490066f651f31a80ece.png?1552837203',
         about: 'יצירה תורנית שיתופית',
         href: 'https://www.betmidrash.org.il/'
+    },
+    {   name: 'עלונים לשבת להורדה',
+        src: 'https://yiddishevinkel.com/wp-content/uploads/2020/02/yiddsh_logo-01.png',
+        about: 'מבחר עלונים לשבת להורדה',
+        href: 'https://yiddishevinkel.com/gilyones/'
     }
 
 

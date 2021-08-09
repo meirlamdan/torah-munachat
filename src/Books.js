@@ -6,6 +6,11 @@ export const books = [
         href: 'https://beta.hebrewbooks.org/'
     },
     {
+        name: 'אוצר החכמה' ,
+        about: 'מאגר ענק של ספרי קודש סרוקים לקבצי pdf ',
+        href: 'https://tablet.otzar.org/'
+    },
+    {
         name: 'sefaria' ,
         src: 'https://www.sefaria.org.il/static/img/logo.svg',
         about: 'מאות ספרי קודש מוקלדים (חלקם עם תרגום לאנגלית)',

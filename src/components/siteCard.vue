@@ -1,7 +1,7 @@
 <template>
   <div class="site-card">
     <h3>{{ name }}</h3>
-    <img :src="src " :alt="name" />
+    <img :src="src || `${href}/favicon.ico`" :alt="name" />
     <p>{{ about }}</p>
     <a :href="href" target="_blank">עבור לאתר</a>
   </div>
@@ -30,6 +30,9 @@ export default {
   position: relative;
   box-shadow: 0 3px 11px 2px rgb(0 0 0 / 16%);
 }
+.site-card:hover{
+  box-shadow: 0 3px 11px 2px rgb(0 0 0 / 30%);
+}
 .site-card img {
   max-width: 90%;
   max-height: 20%;
@@ -50,8 +53,8 @@ export default {
     border-radius: 5px;
     
 }
-.books-site a:hover{
-   background: rgb(216, 211, 211);
+.site-card a:hover{
+   background: rgb(179, 164, 164);
  
 } 
 </style>
