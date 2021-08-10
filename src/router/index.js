@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Books from '../views/Books.vue'
 import Lessons from '../views/Lessons.vue'
 import General from '../views/General.vue'
+import NotFound from '../views/NotFound.vue'
 
 const routes = [
   {
@@ -26,6 +27,9 @@ const routes = [
     path: '/general',
     name: 'General',
     component: General
+  },
+  { path:  '/:pathMatch(.*)*',
+    component: NotFound 
   }
 ]
 
