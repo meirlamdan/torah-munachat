@@ -1,7 +1,9 @@
 <template>
   <div class="site-card">
     <h3>{{ name }}</h3>
+    <div>
     <img :src="src || `${href}/favicon.ico`" :alt="name" />
+    </div>
     <p>{{ about }}</p>
     <a :href="href" target="_blank">עבור לאתר</a>
   </div>
@@ -33,11 +35,15 @@ export default {
 .site-card:hover{
   box-shadow: 0 3px 11px 2px rgb(0 0 0 / 30%);
 }
+.site-card div{
+  height:30%;
+}
 .site-card img {
-  max-width: 90%;
-  max-height: 20%;
-  min-width: 30px;
-  min-height: 30px;
+  height: 70%;
+  width: auto;
+  max-width:90%
+  
+ 
 }
  .site-card a {
     position: absolute;
