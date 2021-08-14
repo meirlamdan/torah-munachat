@@ -39,5 +39,10 @@ export const books = [
         src: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Wikisource-logo-he.png',
         about: 'מאות ספרי קודש מוקלדים בגירסת ויקי ',
         href: 'https://he.wikisource.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%98%D7%A7%D7%A1%D7%98:%D7%90%D7%A8%D7%95%D7%9F_%D7%94%D7%A1%D7%A4%D7%A8%D7%99%D7%9D_%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99'
-    },
+    },{
+        name:'מקראות גדולות הכתר',
+        about:'מהדורת יסוד מדעית של תנ"ך ‘מקראות גדולות‘.',
+        href:'https://www.mgketer.org/'
+
+    }
 ]

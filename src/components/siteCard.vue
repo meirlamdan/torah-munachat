@@ -1,10 +1,12 @@
 <template>
   <div class="site-card">
     <h3>{{ name }}</h3>
-    <div>
+    <div class="img">
     <img :src="src || `${href}/favicon.ico`" :alt="name" />
     </div>
-    <p>{{ about }}</p>
+    <div  class="about">
+    {{ about }}
+    </div>
     <a :href="href" target="_blank">עבור לאתר</a>
   </div>
 
@@ -35,21 +37,24 @@ export default {
 .site-card:hover{
   box-shadow: 0 3px 11px 2px rgb(0 0 0 / 30%);
 }
-.site-card div{
+.site-card .img{
   height:30%;
 }
 .site-card img {
   height: 70%;
   width: auto;
   max-width:90%
-  
- 
+}
+.site-card .about{
+  padding: 5px;
+  height: 28%;
+  overflow:auto;
 }
  .site-card a {
-    position: absolute;
+     position: absolute;
     bottom: 4px;
     left: 0;
-    right: 0;
+    right: 0; 
     margin: 0px auto;
     padding: 5px;
     width: 40%;
