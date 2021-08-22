@@ -22,6 +22,15 @@ export const General = [
         about: 'יצירה תורנית שיתופית',
         href: 'https://www.betmidrash.org.il/'
     },
+    {   name: 'פורטל הדף היומי',
+        src: 'https://daf-yomi.com/images/logo.gif',
+        about: 'פירושים ושיעורים ועזרים רבים ללומדי דף היומי',
+        href: 'https://daf-yomi.com/'
+    },
+    {   name: 'נתיבות הש"ס',
+        about: 'נושאים ומקבילות בתלמוד הבבלי',
+        href: 'http://www.netivothashas.org.il/'
+    },
     {   name: 'עלונים לשבת להורדה',
         src: 'https://yiddishevinkel.com/wp-content/uploads/2020/02/yiddsh_logo-01.png',
         about: 'מבחר עלונים לשבת להורדה',
