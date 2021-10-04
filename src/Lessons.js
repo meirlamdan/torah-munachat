@@ -1,5 +1,3 @@
-import { reject, resolve } from "core-js/fn/promise"
-
 export const lessons = [
     {
         name: 'tora hany time',
