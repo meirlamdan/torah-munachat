@@ -12,7 +12,7 @@ export const books = [
   },
   {
     name: 'תורת אמת',
-    src: require('@/assets/toratemet.png'),
+    // src: require('@/assets/toratemet.png'),
     about: 'מאגר תורני המכיל הרבה ספרי יסוד מוקלדים - להורדה למחשב,קיים גם בגירסת אונליין',
     href: 'http://www.toratemetfreeware.com/'
   },
@@ -53,5 +53,5 @@ export const books = [
     name: 'mercava',
     about: 'מאגר תורני מעוצב בצורה נוחה ללומד.',
     href: 'https://www.themercava.com/'
-  },
+  }
 ];
