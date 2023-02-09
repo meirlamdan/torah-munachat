@@ -9,10 +9,16 @@
   </div>
 </template>
 
-<script setup>
-import AboutCategory from "../components/AboutCategory.vue";
+<script >
 import siteCard from "../components/siteCard.vue";
 import { General } from "../General.js";
+import AboutCategory from "../components/AboutCategory.vue";
+export default {
+  components: { siteCard, AboutCategory },
+  setup() {
+    return { General };
+  },
+};
 </script>
 
 <style>
