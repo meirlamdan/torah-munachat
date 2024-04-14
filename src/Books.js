@@ -11,9 +11,14 @@ export const books = [
     href: 'https://tablet.otzar.org/'
   },
   {
+    name: 'אוצריא',
+    about: 'תוכנה חינמית וידידותית למחשב/נייד, מבוססת על גרסה מסוננת של מאגר ספריא (קרוב ל-6,000 ספרים)',
+    href: 'https://sivan22.github.io/otzaria-download/'
+  },
+  {
     name: 'תורת אמת',
     src: require('@/assets/toratemet.png'),
-    about: 'מאגר תורני המכיל הרבה ספרי יסוד מוקלדים - להורדה למחשב,קיים גם בגירסת אונליין',
+    about: 'מאגר תורני המכיל הרבה ספרי יסוד מוקלדים - להורדה למחשב, קיים גם בגירסת אונליין',
     href: 'http://www.toratemetfreeware.com/'
   },
   {
