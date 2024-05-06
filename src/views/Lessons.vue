@@ -1,6 +1,6 @@
 <script setup>
-import Category from "../components/Category.vue";
-import Cards from "../components/Cards.vue";
+import Category from "@/components/Category.vue";
+import Cards from "@/components/Cards.vue";
 import lessons from "@/data/lessons";
 </script>
 
