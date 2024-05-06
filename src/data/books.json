@@ -12,6 +12,7 @@
   },
   {
     "name": "אוצריא",
+    "src": "https://raw.githubusercontent.com/Sivan22/otzaria/main/images/logo.png",
     "about": "תוכנה חינמית וידידותית למחשב/נייד, מבוססת על גרסה מסוננת של מאגר ספריא (קרוב ל-6,000 ספרים)",
     "href": "https://sivan22.github.io/otzaria-download/"
   },
