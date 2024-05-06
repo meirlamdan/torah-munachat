@@ -1,18 +1,15 @@
 <script setup>
-import AboutCategory from "../components/AboutCategory.vue";
-import siteCard from "../components/siteCard.vue";
+import AboutCategory from "../components/Category.vue";
+import CardS from "../components/Cards.vue";
 import lessons from "@/data/lessons";
 </script>
 
 
 <template>
-  <about-category
-    icon="tabler:microphone-2"
-    title="שיעורים  ודרשות"
-    about="כאן מרוכזים אתרים עם שיעורים והרצאות בכל מקצועות התורה "
-  />
-  <div class="container">
-    <site-card v-for="(item, i) in lessons" :key="i" v-bind="item" />
+  <div>
+    <about-category icon="material-symbols:adaptive-audio-mic-rounded" title="שיעורים  ודרשות"
+      about="כאן מרוכזים אתרים עם שיעורים והרצאות בכל מקצועות התורה " />
+    <CardS :sites="lessons" />
   </div>
 </template>
 

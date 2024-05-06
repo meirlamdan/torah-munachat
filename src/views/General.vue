@@ -1,20 +1,12 @@
 <script setup>
-import siteCard from "../components/siteCard.vue";
+import Card from "../components/Cards.vue";
 import general from "@/data/general";
-import AboutCategory from "../components/AboutCategory.vue";
+import AboutCategory from "../components/Category.vue";
 </script>
 
 <template>
-  <about-category icon="tabler:apps" title="פרויקטים תורניים" about="כאן מרוכזים מגוון פרויקטים תורניים " />
-  <div class="container">
-    <site-card v-for="(item, i) in general" :key="i" v-bind="item" />
+  <div>
+    <about-category icon="tabler:apps" title="פרויקטים תורניים" about="כאן מרוכזים מגוון פרויקטים תורניים " />
+    <Card :sites="general" /> 
   </div>
 </template>
-
-<style>
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-</style>
