@@ -1,25 +1,15 @@
+<script setup>
+import siteCard from "../components/siteCard.vue";
+import general from "@/data/general";
+import AboutCategory from "../components/AboutCategory.vue";
+</script>
+
 <template>
-  <about-category
-    icon="apps"
-    title="פרויקטים תורניים"
-    about="כאן מרוכזים מגוון פרויקטים תורניים "
-  />
+  <about-category icon="tabler:apps" title="פרויקטים תורניים" about="כאן מרוכזים מגוון פרויקטים תורניים " />
   <div class="container">
-    <site-card v-for="(item, i) in General" :key="i" v-bind="item" />
+    <site-card v-for="(item, i) in general" :key="i" v-bind="item" />
   </div>
 </template>
-
-<script >
-import siteCard from "../components/siteCard.vue";
-import { General } from "../General.js";
-import AboutCategory from "../components/AboutCategory.vue";
-export default {
-  components: { siteCard, AboutCategory },
-  setup() {
-    return { General };
-  },
-};
-</script>
 
 <style>
 .container {

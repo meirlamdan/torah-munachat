@@ -1,6 +1,12 @@
+  <script setup>
+  import siteCard from "../components/siteCard.vue";
+  import books from "@/data/books";
+  import AboutCategory from "../components/AboutCategory.vue";
+  </script>
+
 <template>
   <about-category
-    icon="menu_book"
+    icon="tabler:books"
     title="מאגרי ספרים"
     about="כאן מרוכזים מבחר מאגרי ספרים "
   />
@@ -9,17 +15,6 @@
   </div>
 </template>
 
-<script>
-import siteCard from "../components/siteCard.vue";
-import { books } from "../Books";
-import AboutCategory from "../components/AboutCategory.vue";
-export default {
-  components: { siteCard, AboutCategory },
-  setup() {
-    return { books };
-  },
-};
-</script>
 
 <style>
 .container {
