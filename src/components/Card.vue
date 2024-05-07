@@ -13,7 +13,7 @@ const getImageUrl = (path, href) => {
 </script>
 
 <template>
-  <div class="w-72 h-80 p-3 text-center flex flex-col items-center rounded-lg shadow hover:shadow-lg bg-slate-50">
+  <div class="w-72 h-80 p-3 text-center flex flex-col items-center rounded-lg shadow hover:shadow-lg bg-slate-100">
     <div class="text-xl min-h-14 mb-2 font-medium">{{ name }}</div>
     <div class="h-14">
       <img :src="getImageUrl(src, href)" :alt="name" class="mx-auto h-full max-w-60" />

@@ -10,7 +10,7 @@ const links = [
 </script>
 
 <template>
-  <div class=" nin-h-screen">
+  <div class="bg-slate-50 nin-h-screen">
     <div class="bg-slate-200 p-10">
       <header>
         <div class="text-center mb-5">
