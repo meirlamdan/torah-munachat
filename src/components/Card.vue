@@ -21,7 +21,8 @@ const getImageUrl = (path, href) => {
     <div class="h-36 my-4">
       {{ about }}
     </div>
-    <a class=" text-white font-medium bg-slate-500 hover:bg-slate-600 py-1 px-2 rounded-lg" :href="href" target="_blank">עבור לאתר</a>
+    <a class=" text-white font-medium bg-slate-500 hover:bg-slate-600 py-1 px-2 rounded-lg" :href="href"
+      target="_blank">עבור לאתר</a>
   </div>
 
 

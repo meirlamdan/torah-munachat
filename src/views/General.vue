@@ -7,6 +7,6 @@ import Category from "@/components/Category.vue";
 <template>
   <div>
     <Category icon="tabler:apps" title="פרויקטים תורניים" about="כאן מרוכזים מגוון פרויקטים תורניים " />
-    <Card :sites="general" /> 
+    <Card :sites="general" />
   </div>
 </template>

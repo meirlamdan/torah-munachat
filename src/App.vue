@@ -10,7 +10,7 @@ const links = [
 </script>
 
 <template>
-  <div class="bg-slate-50 min-h-screen">
+  <div class="bg-slate-50 min-h-screen pb-10">
     <div class="bg-slate-200 p-10 ">
       <header>
         <div class="text-center mb-5">
@@ -19,7 +19,7 @@ const links = [
         </div>
       </header>
       <div class="flex justify-center gap-6">
-        <router-link :to="path" v-for="({ name, path, icon }) in links" :key="path" >
+        <router-link :to="path" v-for="({ name, path, icon }) in links" :key="path">
           <div class="flex items-center gap-2 hover:text-slate-600 :hover:underline">
             <Icon :icon style="font-size: 24px" />
             <span>{{ name }}</span>
