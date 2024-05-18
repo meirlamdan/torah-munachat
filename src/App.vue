@@ -39,4 +39,8 @@ const links = [
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.router-link-exact-active {
+  font-weight: 600;
+}
+</style>
