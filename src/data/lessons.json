@@ -1,25 +1,25 @@
 [
   {
     "name": "tora hany time",
-    "src": "https://images.weserv.nl/?url=https://torahanytime.com/logos/icon-square.png",
+    "imgSrc": "https://images.weserv.nl/?url=https://torahanytime.com/logos/icon-square.png",
     "about": "מגוון שיעורי תורה לצפייה ושמיעה בכל מקצועות התורה ",
     "href": "https://www.torahanytime.com/"
   },
   {
     "name": "קול הלשון",
-    "src": "https://www.kolhalashon.com/imgs/logo_round.png",
+    "imgSrc": "https://www.kolhalashon.com/imgs/logo_round.png",
     "about": "שעורים רבים בכל מקצעות התורה ",
-    "href": "https://www.kolhalashon.com/"
+    "href": "https://www2.kolhalashon.com/#/regularSite/home"
   },
   {
     "name": "דירשו",
-    "src": "https://www.dirshu.co.il/wp-content/uploads/2021/01/%D7%93%D7%A8%D7%A9%D7%95@2x-8.png",
+    "imgSrc": "https://www.dirshu.co.il/wp-content/uploads/2021/01/%D7%93%D7%A8%D7%A9%D7%95@2x-8.png",
     "about": "שיעורים בדף היומי ובהלכה ומועדים וזמנים ",
     "href": "https://www.dirshu.co.il/"
   },
   {
     "name": "בינינו",
-    "src": "http://beinenu.com/sites/all/themes/fusion/beinenu/logo.png",
+    "imgSrc": "http://beinenu.com/sites/all/themes/fusion/beinenu/logo.png",
     "about": "מגוון שיעורי תורה לצפייה ושמיעה בכל מקצעות התורה ",
     "href": "http://beinenu.com/"
   }
