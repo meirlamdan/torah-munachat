@@ -9,7 +9,7 @@ import lessons from "@/data/lessons";
   <div>
     <Category icon="material-symbols:adaptive-audio-mic-rounded" title="שיעורים  ודרשות"
       about="כאן מרוכזים אתרים עם שיעורים והרצאות בכל מקצועות התורה " />
-    <Cards :sites="lessons" />
+    <Cards :sites="lessons" imgFullback="logos/MaterialSymbolsAdaptiveAudioMicRounded.svg" />
   </div>
 </template>
 

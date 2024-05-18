@@ -7,7 +7,7 @@
 <template>
   <div>
     <Category icon="tabler:books" title="מאגרי ספרים" about="כאן מרוכזים מבחר מאגרי ספרים " />
-    <Cards :sites="books" />
+    <Cards :sites="books" imgFullback="logos/TablerBooks.svg" />
   </div>
 </template>
 
