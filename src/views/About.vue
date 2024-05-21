@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center mt-20">
+  <div class="text-center mt-20 p-5">
     <div class="text-3xl">אודות "תורה מונחת"</div>
     <div>
       <p class="text-gray-600 mt-4">

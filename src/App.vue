@@ -11,14 +11,14 @@ const links = [
 
 <template>
   <div class="bg-slate-50 min-h-screen pb-10">
-    <div class="bg-slate-200 p-10 ">
+    <div class="bg-slate-200 p-8">
       <header>
-        <div class="text-center mb-5">
+        <div class="text-center">
           <h1 class="text-4xl font-bold">תורה מונחת</h1>
           <h3 class="text-2xl"> תורה מונחת בקרן זוית כל הרוצה יבוא ויטול <small>(קידושין סו)</small> </h3>
         </div>
       </header>
-      <div class="flex justify-center gap-6">
+      <div class="flex justify-center flex-wrap gap-x-6 gap-y-3 mt-8">
         <router-link :to="path" v-for="({ name, path, icon }) in links" :key="path">
           <div class="flex items-center gap-2 hover:text-slate-600 :hover:underline">
             <Icon :icon style="font-size: 24px" />
