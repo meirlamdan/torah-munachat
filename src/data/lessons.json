@@ -8,8 +8,14 @@
   {
     "name": "קול הלשון",
     "imgSrc": "https://www.kolhalashon.com/imgs/logo_round.png",
-    "about": "שעורים רבים בכל מקצעות התורה ",
+    "about": "מגוון שיעורי תורה לצפייה ושמיעה בכל מקצועות התורה ",
     "href": "https://www2.kolhalashon.com/#/regularSite/home"
+  },
+  {
+    "name": "tora zoom",
+    "imgSrc": "https://cdn.torazoom.com/wp-content/uploads/2022/07/29040035/torazoom-logo.svg",
+    "about": "מגוון שיעורי תורה לצפייה ושמיעה בכל מקצועות התורה ",
+    "href": "https://torazoom.com/"
   },
   {
     "name": "דירשו",
