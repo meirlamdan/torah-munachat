@@ -7,7 +7,7 @@
   },
   {
     "name": "אוצר החכמה",
-    "about": "מאגר ענק של ספרי קודש סרוקים לקבצי pdf ",
+    "about": "מאגר ענק של ספרי קודש סרוקים לקבצי pdf (ניתן לצפות בחינם ב150 עמודים של כל ספר) ",
     "href": "https://tablet.otzar.org/"
   },
   {
@@ -25,7 +25,7 @@
   {
     "name": "אוצר הספרים היהודי השיתופי",
     "imgSrc": "https://wiki.jewishbooks.org.il/mediawiki/images/8/80/JewishBook-logo-%D7%A9%D7%A7%D7%95%D7%A3.png",
-    "about": "מאות ספרי קודש מוקלדים בגירסת ויקי ",
+    "about": "מאות ספרי קודש מוקלדים בפורמט ויקי עם אפשרות להוספת הערות שוליים ודיונים",
     "href": "https://wiki.jewishbooks.org.il/"
   },
   {
@@ -57,8 +57,8 @@
   },
   {
     "name": "תא שמע",
-    "about": "מאגר תורני חברתי. (גרסת הבסיס חינם, הכוללת מאגר ספרים מצומצם לשימוש חופשי.)",
-    "href": "https://jewishoffice.co.il/%d7%aa%d7%90-%d7%a9%d7%9e%d7%a2/"
+    "about": "מאגר תורני חברתי",
+    "href": "https://tashma.jewishoffice.co.il/"
   },
   {
     "name": "mercava",
