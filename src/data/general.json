@@ -16,11 +16,22 @@
     "about": "קובץ אנציקלופדי למחשבת היהדות",
     "href": "http://www.aspaklaria.info/"
   },
+    {
+    "name": "פורום אוצר החכמה",
+    "about": "פורום תורני בכל מקצועות התורה (הפורום חסום בסינון נטפרי)",
+    "href": "http://forum.otzar.org/"
+  },
   {
     "name": "פורום לתורה",
     "imgSrc": "https://images.matara.pro/ClientsImages/9001941.jpg?",
-    "about": "פורום תורני בכל מקצועות התורה ",
+    "about": "פורום תורני בכל מקצועות התורה",
     "href": "https://tora-forum.co.il/"
+  },
+  {
+    "name": "פורום אוצר התורה",
+    "imgSrc": "https://forum-otzar-hatorah.co.il/styles/default/xenforo/logo5.png",
+    "about": "פורום תורני בכל מקצועות התורה",
+    "href": "https://forum-otzar-hatorah.co.il/"
   },
   {
     "name": "ויקי סוגיה",
@@ -36,8 +47,8 @@
   },
   {
     "name": "שניים מקרא",
-    "imgSrc": "https://shnayim-mikra.netlify.app/Fa6SolidScrollTorah.svg",
-    "about": "שניים מקרא ואחד תרגום לקריאה נוחה ומותאמת אישית",
+    "imgSrc": "https://shnayim-mikra.netlify.app/logo.svg",
+    "about": "שניים מקרא ואחד תרגום עם רש\"י ומפרשים בעיצוב נח ומותאם אישית",
     "href": "https://shnayim-mikra.netlify.app/"
   },
   {
