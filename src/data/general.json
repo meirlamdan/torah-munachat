@@ -51,9 +51,14 @@
     "href": "http://www.netivothashas.org.il/"
   },
   {
-    "name": "עלונים לשבת להורדה",
+    "name": "עלונים לשבת להורדה (yiddishevinkel)",
     "imgSrc": "https://yiddishevinkel.com/wp-content/uploads/2020/02/yiddsh_logo-01.png",
     "about": "מבחר עלונים לשבת להורדה",
     "href": "https://yiddishevinkel.com/gilyones/"
+  },
+  {
+    "name": "עלונים לשבת להורדה (אופיס יהודי)",
+    "about": "מבחר עלונים לשבת להורדה",
+    "href": "https://gilyonot.jewishoffice.co.il/"
   }
 ]
