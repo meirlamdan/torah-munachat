@@ -16,7 +16,7 @@
     "about": "קובץ אנציקלופדי למחשבת היהדות",
     "href": "http://www.aspaklaria.info/"
   },
-    {
+  {
     "name": "פורום אוצר החכמה",
     "about": "פורום תורני בכל מקצועות התורה (הפורום חסום בסינון נטפרי)",
     "href": "http://forum.otzar.org/"
@@ -50,6 +50,12 @@
     "imgSrc": "https://shnayim-mikra.netlify.app/logo.svg",
     "about": "שניים מקרא ואחד תרגום עם רש\"י ומפרשים בעיצוב נח ומותאם אישית",
     "href": "https://shnayim-mikra.netlify.app/"
+  },
+  {
+    "name": "כלי קודש לוורד",
+    "about": "גישה נוחה לספרי היברו בוקס בתוך וורד, גישה למאגר הספרים של אוצריא בתוך וורד, גישה נוחה לאתרים תורניים",
+    "imgSrc":"https://kleikodesh.github.io/Klei_Kodesh-Logo.png",
+    "href": "https://kleikodesh.github.io/"
   },
   {
     "name": "DICTA",
