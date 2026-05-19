@@ -3,69 +3,15 @@ defineProps(['name', 'imgSrc', 'about', 'href','imgFullback'])
 </script>
 
 <template>
-  <div class="w-72 h-80 p-3 text-center flex flex-col items-center rounded-lg shadow hover:shadow-lg bg-slate-100">
+  <div class="w-full sm:w-72 max-w-xs p-4 text-center flex flex-col items-center rounded-lg shadow hover:shadow-lg transition-shadow duration-200 bg-slate-100">
     <div class="text-xl min-h-14 mb-2 font-medium">{{ name }}</div>
     <div class="h-14">
       <img :src="imgSrc|| `${href}/favicon.ico`" :onerror="`this.src='${imgFullback}'`" :alt="name" class="mx-auto h-full max-w-60" />
     </div>
-    <div class="h-36 my-4">
+    <div class="line-clamp-5 text-sm text-slate-600 my-4 flex-1">
       {{ about }}
     </div>
-    <a class=" text-white font-medium bg-slate-500 hover:bg-slate-600 py-1 px-2 rounded-lg" :href="href"
+    <a class="text-white text-sm font-medium bg-slate-500 hover:bg-slate-600 transition-colors duration-150 py-1.5 px-5 rounded-full" :href="href"
       target="_blank">עבור לאתר</a>
   </div>
-
-
-
 </template>
-
-
-<style>
-.site-card {
-  /* height: 250px;
-  width: 300px;
-  border-radius: 5px; */
-  /* position: relative; */
-  /* box-shadow: 0 3px 11px 2px rgb(0 0 0 / 16%); */
-}
-
-/* .site-card:hover {
-  box-shadow: 0 3px 11px 2px rgb(0 0 0 / 30%);
-}
-
-.site-card .img {
-  height: 30%;
-}
-
-.site-card img {
-  height: 70%;
-  width: auto;
-  max-width: 90%
-}
-
-.site-card .about {
-  padding: 5px;
-  height: 28%;
-  overflow: auto;
-}
-
-.site-card a {
-  position: absolute;
-  bottom: 4px;
-  left: 0;
-  right: 0;
-  margin: 0px auto;
-  padding: 5px;
-  width: 40%;
-  background: rgb(241, 238, 238);
-  font-size: 20px;
-  text-decoration-line: none;
-  border-radius: 5px;
-
-}
-
-.site-card a:hover {
-  background: rgb(179, 164, 164);
-
-} */
-</style>
