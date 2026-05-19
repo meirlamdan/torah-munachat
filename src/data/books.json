@@ -12,8 +12,8 @@
   },
   {
     "name": "אוצריא",
-    "imgSrc": "https://raw.githubusercontent.com/Sivan22/otzaria/main/images/logo.png",
-    "about": "תוכנה חינמית וידידותית למחשב/נייד, מבוססת על גרסה מסוננת של מאגר ספריא (קרוב ל-6,000 ספרים)",
+    "imgSrc": "https://otzaria.org/logo.svg",
+    "about": "מאגר תורני חינמי רחב ומקיף עם יותר מ-7,000 ספרים, מסונן בקפידה לציבור התורני. ממשק חדיש הכולל חיפוש וכלים נוספים. לשימוש לא מקוון.",
     "href": "https://sivan22.github.io/otzaria-download/"
   },
   {
@@ -69,5 +69,10 @@
     "name": "mercava",
     "about": "מאגר תורני מעוצב בצורה נוחה ללומד.",
     "href": "https://www.themercava.com/"
+  },
+  {
+    "name": "zayit",
+    "about": "תוכנת מחשב חינמית עם 6,800+ ספרי קודש, עובדת אופליין, עם חיפוש חכם וממשק מקצועי.",
+    "href": "https://zayitapp.com/"
   }
 ]

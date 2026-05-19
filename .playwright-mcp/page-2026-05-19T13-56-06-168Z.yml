@@ -1,0 +1,203 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic:
+      - application "Video Player":
+        - generic:
+          - generic [ref=e5]: 0 seconds of 0 secondsVolume 100%
+          - generic:
+            - button "Play" [ref=e6] [cursor=pointer]:
+              - img
+            - text: • /
+      - generic [ref=e8]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - img [ref=e13] [cursor=pointer]
+            - generic [ref=e16] [cursor=pointer]: 
+            - img [ref=e18] [cursor=pointer]
+          - button " 1x" [ref=e21] [cursor=pointer]:
+            - generic [ref=e23]: 
+            - generic [ref=e24]: 1x
+          - generic [ref=e25]:
+            - generic [ref=e27] [cursor=pointer]: 
+            - slider [ref=e31]
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - img "חולין 19 by הרב יהודה שמואלביץ" [ref=e36]
+            - generic [ref=e37]:
+              - heading "חולין 19" [level=5] [ref=e38]
+              - text: by הרב יהודה שמואלביץ
+          - generic [ref=e39]:
+            - group [ref=e42]:
+              - generic [ref=e45]: 
+              - generic [ref=e46]: חיפוש בהדף בעיון
+              - textbox "חיפוש בהדף בעיון" [ref=e47]:
+                - /placeholder: חיפוש
+            - button "" [ref=e50] [cursor=pointer]:
+              - generic [ref=e52]: 
+        - generic [ref=e53]:
+          - generic [ref=e54]: 00:00:00
+          - slider [ref=e58]
+          - generic [ref=e60]: 00:00:00
+    - banner [ref=e61]:
+      - navigation [ref=e62]:
+        - link "הדף בעיון" [ref=e63] [cursor=pointer]:
+          - /url: /
+          - img "הדף בעיון" [ref=e65]
+        - text: 
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - button "הדף בעיון" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: הדף בעיון
+            - text:  
+          - listitem [ref=e71]:
+            - link "משנה בעיון זרעים וטהרות" [ref=e72] [cursor=pointer]:
+              - /url: /mishna
+              - generic [ref=e73]:
+                - text: משנה בעיון
+                - text: זרעים וטהרות
+          - listitem [ref=e74]:
+            - link "תורה בעיון זרעים וטהרות" [ref=e75] [cursor=pointer]:
+              - /url: /torah
+              - generic [ref=e76]:
+                - text: תורה בעיון
+                - text: זרעים וטהרות
+          - listitem [ref=e77]:
+            - button "מגידי שיעור" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: מגידי שיעור
+          - listitem [ref=e80]:
+            - link "הספרייה שלי" [ref=e81] [cursor=pointer]:
+              - /url: /library
+          - listitem [ref=e82]:
+            - button "עוד" [ref=e83] [cursor=pointer]:
+              - generic [ref=e84]: עוד
+          - listitem [ref=e85]:
+            - link "Shas Illuminated" [ref=e86] [cursor=pointer]:
+              - /url: https://shasilluminated.org/
+              - text: Shas
+              - text: Illuminated
+          - listitem [ref=e87]:
+            - link "משאבי תורה" [ref=e88] [cursor=pointer]:
+              - /url: /daf-resources
+          - listitem [ref=e89]:
+            - link " תרום" [ref=e90] [cursor=pointer]:
+              - /url: https://causematch.com/shas-illuminated-2026
+              - generic [ref=e91]: 
+              - text: תרום
+  - generic [ref=e93]:
+    - generic [ref=e94]:
+      - generic [ref=e99]:
+        - generic [ref=e102]:
+          - img "Shas Illuminated" [ref=e103]
+          - heading "זרעים וטהרות" [level=5] [ref=e104]
+          - heading "עיקרי ראשונים ואחרונים על כל השס" [level=5] [ref=e105]
+          - heading "לע\"נ שמריהו בן חיים ואסתר מרים בת אבא הכהן" [level=5] [ref=e106]
+        - generic [ref=e107]:
+          - link "הדף היומי" [ref=e109] [cursor=pointer]:
+            - /url: /shiur/masechta-chullin/daf-19
+            - button "הדף היומי" [ref=e110]
+          - link "מגידי שיעור" [ref=e112] [cursor=pointer]:
+            - /url: /magidei-shiur
+            - button "מגידי שיעור" [ref=e113]
+          - link "בחר מסכתא" [ref=e115] [cursor=pointer]:
+            - /url: /masechtos
+            - button "בחר מסכתא" [ref=e116]
+      - tabpanel [ref=e124]:
+        - application [ref=e127]:
+          - generic [ref=e129]:
+            - generic [ref=e133]: 0 seconds of 0 secondsVolume 100%
+            - generic:
+              - button [ref=e135] [cursor=pointer]:
+                - img
+              - text: • /
+    - heading "מגידי שיעור מומלצים" [level=4] [ref=e138]
+    - generic [ref=e141]:
+      - heading "קטגוריות" [level=4] [ref=e142]
+      - link "כל הנושאים" [ref=e145] [cursor=pointer]:
+        - /url: /torah?category=all
+        - paragraph [ref=e148]: כל הנושאים
+  - contentinfo [ref=e150]:
+    - heading "אנו מודים לתורמים שלנו" [level=2] [ref=e153]
+    - generic [ref=e154]:
+      - generic [ref=e156]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - img "Shas Illuminated" [ref=e160]
+            - generic [ref=e161]:
+              - link [ref=e162] [cursor=pointer]:
+                - /url: "tel:"
+              - link "Play Store" [ref=e163] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.app.shasilluminated&hl=en&gl=US
+                - img "Play Store" [ref=e164]
+              - link "App Store" [ref=e165] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/shas-illuminated/id1491244203
+                - img "App Store" [ref=e166]
+            - button " תרום" [ref=e167] [cursor=pointer]:
+              - generic [ref=e168]: 
+              - text: תרום
+          - generic [ref=e169]:
+            - heading "צור קשר" [level=5] [ref=e170]
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - generic [ref=e175]: 
+                - generic [ref=e176]:
+                  - text: 25 אולימפיה ליין ווטרברי
+                  - text: קונטיקט 06704
+              - listitem [ref=e177]:
+                - link " 203-312-7427" [ref=e178] [cursor=pointer]:
+                  - /url: tel:203-312-7427
+                  - generic [ref=e179]: 
+                  - text: 203-312-7427
+              - listitem [ref=e180]:
+                - link " info@hadafbeiyun.org" [ref=e181] [cursor=pointer]:
+                  - /url: tel:info@hadafbeiyun.org
+                  - generic [ref=e182]: 
+                  - text: info@hadafbeiyun.org
+        - generic [ref=e184]:
+          - heading "הערות והצעות" [level=5] [ref=e185]
+          - generic [ref=e186]:
+            - group [ref=e187]:
+              - textbox "דואר אלקטרוני" [ref=e189]
+            - group [ref=e190]:
+              - textbox "שם מלא" [ref=e192]
+            - group [ref=e193]:
+              - generic [ref=e194]:
+                - textbox "הודעה" [ref=e195]
+                - group [ref=e196]:
+                  - iframe [ref=e201]:
+                    - generic [ref=f4e2]:
+                      - generic [ref=f4e3]:
+                        - checkbox "אני לא רובוט" [ref=f4e7]
+                        - generic [ref=f4e11]: אני לא רובוט
+                        - generic [ref=f4e13]:
+                          - text: אנחנו משנים את התנאים וההגבלות של שירות reCAPTCHA .
+                          - link "צריך לפעול בהתאם" [ref=f4e14] [cursor=pointer]:
+                            - /url: https://google.com/recaptcha/admin/migrate
+                      - generic [ref=f4e18]: reCAPTCHA
+            - button " שלח" [disabled] [ref=e202]:
+              - generic [ref=e203]: 
+              - text: שלח
+      - generic [ref=e205]:
+        - generic [ref=e207]: © 2026 הדף בעיון
+        - list [ref=e209]:
+          - listitem [ref=e210]:
+            - link "הדף בעיון" [ref=e211] [cursor=pointer]:
+              - /url: /masechtos
+          - listitem [ref=e212]:
+            - link "תורה בעיון" [ref=e213] [cursor=pointer]:
+              - /url: /torah
+          - listitem [ref=e214]:
+            - link "מגידי שיעור" [ref=e215] [cursor=pointer]:
+              - /url: /magidei-shiur
+          - listitem [ref=e216]:
+            - link "פודקאסטים" [ref=e217] [cursor=pointer]:
+              - /url: /podcasts
+          - listitem [ref=e218]:
+            - link "הסכמות" [ref=e219] [cursor=pointer]:
+              - /url: /haskamos
+          - listitem [ref=e220]:
+            - link "מדיניות פרטיות" [ref=e221] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=e222]:
+            - link "תנאים" [ref=e223] [cursor=pointer]:
+              - /url: /terms-and-conditions
+  - text: 

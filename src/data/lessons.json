@@ -28,5 +28,11 @@
     "imgSrc": "http://beinenu.com/sites/all/themes/fusion/beinenu/logo.png",
     "about": "מגוון שיעורי תורה לצפייה ושמיעה בכל מקצעות התורה, עלונים לשבת",
     "href": "http://beinenu.com/"
+  },
+  {
+    "name": "הדף בעיון",
+    "imgSrc": "https://hadafbeiyun.org/static/hadaf-mobile.png",
+    "about": "שיעורי דף יומי בעיון ממגוון מגידי שיעור, כולל משניות זרעים וטהרות.",
+    "href": "https://hadafbeiyun.org/"
   }
 ]
