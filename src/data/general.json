@@ -63,6 +63,12 @@
     "href": "https://yossizahn.github.io/timeline/"
   },
   {
+    "name": "המשיב",
+    "imgSrc": "https://hameshiv.com/static/logo.png",
+    "about": "כלי עזר ללימוד ולאיתור מקורות (AI) - תשובות בלימוד מתוך אלפי ספרים עם לשון המקור ומראה מקום מדויק",
+    "href": "https://hameshiv.com/"
+  },
+  {
     "name": "DICTA",
     "about": "כלים דיגיטליים לעיבוד טקסטים עבריים",
     "href": "https://dicta.org.il/"
@@ -82,5 +88,10 @@
     "name": "עלונים לשבת להורדה (אופיס יהודי)",
     "about": "מבחר עלונים לשבת להורדה",
     "href": "https://gilyonot.jewishoffice.co.il/"
+  },
+  {
+    "name": "עלונים לשבת להורדה (גליונות)",
+    "about": "מבחר עלונים לשבת להורדה",
+    "href": "https://www.gilyoines.com/"
   }
 ]

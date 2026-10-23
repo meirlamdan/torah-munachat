@@ -74,5 +74,11 @@
     "name": "zayit",
     "about": "תוכנת מחשב חינמית עם 6,800+ ספרי קודש, עובדת אופליין, עם חיפוש חכם וממשק מקצועי.",
     "href": "https://zayitapp.com/"
+  },
+  {
+    "name": "אוצר הבינה",
+    "imgSrc": "https://otzarhabina.com/favicon.svg",
+    "about": "ספרייה תורנית דיגיטלית חינמית - אלפי ספרי קודש בעימוד נוח וחיפוש מהיר בתוך כל הספרים.",
+    "href": "https://otzarhabina.com/"
   }
 ]
